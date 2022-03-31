@@ -12,6 +12,8 @@ public class Configuration {
     private String avatarUrl = ""; // Avatar URL
     private String botName = ""; // Bot name
     private String GuildName = ""; // Guild name
+    private String activityName = ">help to getting started"; // Activity name
+    private String activityUrl = "https://www.youtube.com/watch?v=Z_JU4NE90gI"; // Activity URL
     public Configuration() {
 
     }
@@ -96,6 +98,18 @@ public class Configuration {
 
     public String getGuildName() {
         return GuildName;
+    }
+    
+       public String getActivityName() {
+        return activityName;
+    }
+
+    public String setActivityUrl() {
+        return activityUrl;
+    }
+
+    public String getactivityUrl() {
+        return activityUrl;
     }
 
 }
