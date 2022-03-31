@@ -2,6 +2,8 @@ import commands.*;
 import org.javacord.api.DiscordApi;
 import org.javacord.api.DiscordApiBuilder;
 import configurations.Configuration;
+import org.javacord.api.entity.activity.Activity;
+import org.javacord.api.entity.activity.ActivityType;
 import org.javacord.api.util.logging.FallbackLoggerConfiguration;
 
 public class Main {
@@ -17,8 +19,8 @@ public class Main {
                 .addListener(new ServerInfo())
                 .login()
                 .join();
-
-        api.updateActivity(">help to getting started", "https://www.youtube.com/watch?v=Z_JU4NE90gI");
+        // activity set image
+        api.updateActivity(ActivityType.PLAYING, "Fortnite");
 
     }
 }

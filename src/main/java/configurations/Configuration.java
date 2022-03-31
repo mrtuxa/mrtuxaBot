@@ -12,6 +12,8 @@ public class Configuration {
     private String avatarUrl = "https://cdn.discordapp.com/attachments/956593618221695028/957042576035311736/VictoriaState.png"; // Avatar URL
     private String botName = "VictoriaState"; // Bot name
     private String GuildName = "VictoriaState"; // Guild name
+    private String activityName = ">help to getting started"; // Activity name
+    private String activityUrl = "https://www.youtube.com/watch?v=Z_JU4NE90gI"; // Activity URL
     public Configuration() {
 
     }
@@ -98,4 +100,23 @@ public class Configuration {
         return GuildName;
     }
 
+    public String setActivityName() {
+        return activityName;
+    }
+
+    public String getActivityName() {
+        return activityName;
+    }
+
+    public String setActivityUrl() {
+        return activityUrl;
+    }
+
+    public String getactivityUrl() {
+        return activityUrl;
+    }
+
+    public String setactivityName() {
+        return activityName;
+    }
 }
