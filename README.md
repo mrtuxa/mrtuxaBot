@@ -1,5 +1,6 @@
-# mrtuxaBot
+# Javacord | Command Examples 
 
-## run
+## This is an Open Source Projekt under the MIT License
+## Feel free to use it
 
-``java -jar bot.jar``
+[Discord](https://discord.gg/xy9Hk9XWFk)
