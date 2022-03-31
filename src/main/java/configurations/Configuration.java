@@ -1,17 +1,17 @@
 package configurations;
 
 public class Configuration {
-    private String token = "OTU3MDM4NzMzOTM1Mzc4NTAz.Yj49xw.4HYoYz0HcA_RqWAe1JMQW25Vlgk" ; //token
+    private String token = "" ; //token
     private String prefix = ">" ; // Prefix for commands
-    private String guild = "947468849505263616"; // Guild ID
-    private String welcomeChannel = "947468849505263619"; // Welcome channel ID
+    private String guild = ""; // Guild ID
+    private String welcomeChannel = ""; // Welcome channel ID
     private String youtube_api_key = ""; // YouTube API key
-    private String footerText = "VictoriaState"; // Footer text
-    private String footerIcon = "https://cdn.discordapp.com/attachments/956593618221695028/957042576035311736/VictoriaState.png"; // Footer icon
+    private String footerText = ""; // Footer text
+    private String footerIcon = ""; // Footer icon
     private String EmbedColor = "3c0fdb"; // Embed color
-    private String avatarUrl = "https://cdn.discordapp.com/attachments/956593618221695028/957042576035311736/VictoriaState.png"; // Avatar URL
-    private String botName = "VictoriaState"; // Bot name
-    private String GuildName = "VictoriaState"; // Guild name
+    private String avatarUrl = ""; // Avatar URL
+    private String botName = ""; // Bot name
+    private String GuildName = ""; // Guild name
     public Configuration() {
 
     }
