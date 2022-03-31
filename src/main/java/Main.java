@@ -17,6 +17,7 @@ public class Main {
                 .addListener(new Ping())
                 .addListener(new Say())
                 .addListener(new ServerInfo())
+                .addListener(new Userinfo())
                 .login()
                 .join();
         // activity set image

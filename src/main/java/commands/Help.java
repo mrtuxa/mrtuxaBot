@@ -22,7 +22,7 @@ public class Help implements MessageCreateListener {
                                     .addField("\uD83D\uDCDA","`" + configuration.getPrefix() + "kick` - Kicks a user\n",true ) // implement yet (not working)
                                     .addField("\uD83D\uDCDA", "`" + configuration.getPrefix() + "ban` - Bans a user\n", true) // not implemented yet
                                     .addField("\uD83D\uDCDA","`" + configuration.getPrefix() + "purge` - Purges a number of messages\n", true) // implemented yet (not working)
-                                    .addField("\uD83D\uDCDA","`" + configuration.getPrefix() + "serverinfo` - Shows information about the server\n", true)
+                                    .addField("\uD83D\uDCDA","`" + configuration.getPrefix() + "serverinfo` - Shows information about the server\n", true) // implemented yet
                                     .addField("\uD83D\uDCDA", "`" + configuration.getPrefix() + "userinfo` - Shows information about the user\n", true)
                                     .addField("\uD83D\uDCDA","`" + configuration.getPrefix() + "avatar` - Shows the avatar of the user\n", true)
                                     .addField("\uD83D\uDCDA","`" + configuration.getPrefix() + "servericon` - Shows the icon of the server\n", true)
