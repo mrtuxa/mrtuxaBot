@@ -1,5 +1,1 @@
-# mrtuxaBot
-
-## run
-
-``java -jar bot.jar``
+# Javacord | Command Examples 
